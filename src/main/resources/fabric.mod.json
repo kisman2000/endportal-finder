@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "endportal-finder",
+  "version": "${version}",
+  "name": "Ender Portal Finder",
+  "description": "Helps with finding ender portal",
+  "authors": [
+    "_kisman_"
+  ],
+  "contact": {
+    "repo": "https://github.com/kisman2000/endportal-finder"
+  },
+  "license": "unlicense",
+  "icon": "assets/endportal-finder/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "the.kis.devs.endportalfinder.EnderPortalFinder"
+    ]
+  },
+  "mixins": [
+    "endportal-finder.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
